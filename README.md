@@ -2,6 +2,8 @@
 
 GeoDecider is a training-free, agentic reasoning framework designed for accurate and geologically consistent lithology classification from well-logging signals. By reformulating the classification task into an expert-like, multi-stage workflow, GeoDecider bridges the gap between efficient data-driven models and deep geological reasoning.
 
+
+![Mai](pic/main.png)
 #### 🚀 Overview
 Lithology classification is traditionally treated as a single-pass task, often leading to geologically implausible results. GeoDecider addresses this by using a coarse-to-fine pipeline:
 1. Base Classifier-Guided Coarse Classification: A lightweight pre-trained model handles high-confidence samples to minimize computational costs.
